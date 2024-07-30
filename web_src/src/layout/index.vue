@@ -1,6 +1,6 @@
 <template>
   <el-container style="height: 100%">
-    <el-header>
+    <el-header style="background-color: #001529;">
       <ui-header/>
     </el-header>
     <el-main>

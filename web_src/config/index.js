@@ -12,14 +12,14 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/debug': {
-        target: 'http://127.0.0.1:18082',
+        target: 'https://live.h5nvr.com:18080/',
         changeOrigin: true,
         pathRewrite: {
           '^/debug': '/'
         }
       },
       '/static/snap': {
-        target: 'http://127.0.0.1:18082',
+        target: 'https://live.h5nvr.com:18080/',
         changeOrigin: true,
         // pathRewrite: {
         //   '^/static/snap': '/static/snap'
