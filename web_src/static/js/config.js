@@ -1,5 +1,5 @@
 
-window.baseUrl = ""
+window.baseUrl = "/api"
 
 // map组件全局参数, 注释此内容可以关闭地图功能
 window.mapParam = {
